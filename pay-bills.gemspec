@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Pay::Bills::VERSION
   spec.authors       = ["Kavinder Dhaliwal"]
   spec.email         = ["kavinderd@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Pay your Bills}
+  spec.description   = %q{Easy Command Line utility to open your bill websites}
+  spec.homepage      = "https://github.com/kavinderd/pay-bills"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
