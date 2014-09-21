@@ -31,7 +31,8 @@ module PayBills
     if File.exists?(FILE_PATH)
       YAML.load(File.open(FILE_PATH))
     else
-      YAML.load(set_config)
+      set_config
+      self.get_config
     end
   end
 end

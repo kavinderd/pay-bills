@@ -1,0 +1,20 @@
+#! /usr/bin/env ruby
+
+require 'pay_bills'
+require 'main'
+
+Main {
+
+  mode "open" do
+    def run
+      PayBills.pay_bills
+    end
+  end
+
+  mode "edit" do
+    def run
+      PayBills.edit_bills
+    end
+  end
+
+}
