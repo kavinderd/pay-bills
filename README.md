@@ -24,18 +24,18 @@ Or install it yourself as:
 
 1. Set configuration file:
     
-    config.yml
+      	config.yml
     
-    bills: 
-      chase: "http://www.chase.com"
+      	bills: 
+        	chase: "http://www.chase.com"
 
 2. From you command line
     
-    pay-bills open
+      	pay-bills open
 
 3. To Edit your config.yml
     
-    pay-bills edit
+      	pay-bills edit
 
 For the above example, this will open a browser window with `www.credit-card.com` as the url.
 
